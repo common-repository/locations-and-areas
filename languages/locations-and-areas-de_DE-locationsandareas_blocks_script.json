@@ -1,0 +1,39 @@
+{
+  "translation-revision-date": "2021-07-11 17:13+0200",
+  "generator": "WP-CLI\/2.5.0",
+  "source": "blocks\/src\/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "de_DE",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Locations and Areas Map": [
+        "Locations and Areas Karte"
+      ],
+      "This block will show your Locations and Areas on a map in the front end.": [
+        "Dieser Block zeigt deine Locations und Areas auf einer Karte an."
+      ],
+      "This block will show your": [
+        "Dieser Block zeigt deine"
+      ],
+      "Locations": [
+        "Locations"
+      ],
+      "and": [
+        "und"
+      ],
+      "Areas": [
+        "Areas"
+      ],
+      "on a map in the front end.": [
+        "auf einer Karte an."
+      ],
+      "Settings": [
+        "Einstellungen"
+      ]
+    }
+  }
+}

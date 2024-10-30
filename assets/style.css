@@ -1,0 +1,898 @@
+.post-php.post-type-laa-location #location_customfields .inside,
+.post-new-php.post-type-laa-location #location_customfields .inside {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.post-php.post-type-laa-location #location_customfields .inside > .section,
+.post-new-php.post-type-laa-location #location_customfields .inside > .section {
+  padding: 15px 12px;
+  border-top: 1px solid #EEEEEE;
+}
+
+.post-php.post-type-laa-location #location_customfields .inside > .section:first-of-type,
+.post-new-php.post-type-laa-location #location_customfields .inside > .section:first-of-type {
+  border-top: 0;
+}
+
+.post-php.post-type-laa-location label,
+.post-new-php.post-type-laa-location label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap {
+  position: relative;
+  width: 50%;
+  padding-top: 30%;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation input.glass,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation input.glass {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom1 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom1 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+          filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+          filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .input-wrap,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .input-wrap {
+  width: 50%;
+  padding: 0 50px;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 7%;
+  margin-bottom: 30px;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint div.hint,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint div.hint {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint .latlng-wrap > div:not(.hint),
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint .latlng-wrap > div:not(.hint) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post-php.post-type-laa-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint .latlng-wrap > div:not(.hint) > div,
+.post-new-php.post-type-laa-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint .latlng-wrap > div:not(.hint) > div {
+  width: 49%;
+}
+
+@media (max-width: 768px) {
+  .post-php.post-type-laa-location .geo-coordinates-wrap,
+  .post-new-php.post-type-laa-location .geo-coordinates-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post-php.post-type-laa-location .geo-coordinates-wrap .map-wrap,
+  .post-php.post-type-laa-location .geo-coordinates-wrap .input-wrap,
+  .post-new-php.post-type-laa-location .geo-coordinates-wrap .map-wrap,
+  .post-new-php.post-type-laa-location .geo-coordinates-wrap .input-wrap {
+    width: 100%;
+  }
+  .post-php.post-type-laa-location .geo-coordinates-wrap .input-wrap,
+  .post-new-php.post-type-laa-location .geo-coordinates-wrap .input-wrap {
+    padding: 0;
+  }
+}
+
+.post-php.post-type-laa-location #laa_location_image_preview.has-image,
+.post-new-php.post-type-laa-location #laa_location_image_preview.has-image {
+  width: 400px;
+  height: 200px;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.post-php.post-type-laa-location #laa_location_image_preview.has-image img,
+.post-new-php.post-type-laa-location #laa_location_image_preview.has-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+.taxonomy-laa-area .term-description-wrap,
+.taxonomy-laa-area .term-slug-wrap {
+  display: none;
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .map-wrap {
+  position: relative;
+  padding-top: 65%;
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .map-wrap #mapGetArea {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .map-wrap #mapGetArea input.glass {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom1 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+          filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+          filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .input-wrap .latlng-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .input-wrap .latlng-wrap > div input {
+  width: 100%;
+}
+
+.taxonomy-laa-area .geo-coordinates-wrap .input-wrap .geo-coordinates-hint {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: floralwhite;
+}
+
+@media (max-width: 768px) {
+  .taxonomy-laa-area .geo-coordinates-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .taxonomy-laa-area .geo-coordinates-wrap .map-wrap,
+  .taxonomy-laa-area .geo-coordinates-wrap .input-wrap {
+    width: 100%;
+  }
+  .taxonomy-laa-area .geo-coordinates-wrap .input-wrap {
+    padding: 0;
+  }
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard {
+  background: #fff;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #adminmenu li#menu-settings a::after {
+  border-right-color: #ffaa14;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap {
+  height: 100%;
+  min-height: 100%;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent {
+  height: 100%;
+  min-height: 100%;
+  padding-left: 0;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody {
+  height: 100%;
+  min-height: 100%;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content {
+  padding: 0;
+  height: 100%;
+  padding-bottom: 0;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content #screen-meta,
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .clear {
+  display: none;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 9%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper .laa-optin-hero {
+  background: radial-gradient(#ecb447, #ffaa14);
+  background: #fedf22;
+  background: url(images/optin-bg-map.jpg) no-repeat center #ffaa14;
+  background-size: cover;
+  color: white;
+  width: 100%;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper .laa-optin-hero .laa-optin-image {
+  display: none;
+  height: 100%;
+  background-image: url(https://www.locations-and-areas.com/wp-content/themes/laa/dist/images/website-hero_45add264.png);
+  background-image: url(https://media.istockphoto.com/vectors/male-hand-holding-megaphone-with-it-s-time-to-start-speech-bubble-vector-id1133452293?s=2048x2048);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect {
+  width: 100%;
+  max-width: 900px;
+  margin: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-visual {
+  display: none;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-content {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-content > p span {
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  color: #23282d;
+  margin-bottom: 20px;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-actions .button {
+  height: 49px;
+  line-height: 49px;
+  padding: 0 20px !important;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-actions .button-primary {
+  margin-right: 15px;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-actions #skip_activation {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  float: none;
+  background: transparent;
+  border-color: transparent;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-actions #skip_activation:hover {
+  border-color: #0071a1;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions {
+  padding: 0 0 30px 0;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions .fs-trigger {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions .fs-trigger:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul {
+  display: none;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li {
+  margin-bottom: 0;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li i.dashicons {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  color: #23282d;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li div {
+  margin-left: 0;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li div span {
+  text-transform: capitalize;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li div p {
+  margin-top: 8px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li:nth-child(1) {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li:nth-child(2) {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li:nth-child(3) {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions ul li:nth-child(4) {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions.fs-open ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(auto, 280px))[2];
+      grid-template-columns: repeat(2, minmax(auto, 280px));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin: 20px 0 0 0;
+  padding-top: 30px;
+  border-top: 1px dashed #ddd;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions .fs-switch {
+  width: 25px;
+  height: 16px;
+  top: 1px;
+  right: 20px;
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  border: 2px solid #555d66;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions .fs-switch .fs-toggle {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  top: 1px;
+  width: 10px;
+  height: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions .fs-switch.fs-off {
+  background: transparent;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions .fs-switch.fs-off .fs-toggle {
+  left: 1px;
+  background: #555d66;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions .fs-switch.fs-on {
+  border-color: #0085ba;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-permissions .fs-switch.fs-on .fs-toggle {
+  left: 10px;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-terms {
+  display: none;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-license-key-container {
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-license-key-container input[type=text] {
+  min-height: 49px;
+  padding: 0 12px;
+  line-height: initial;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-license-key-container .dashicons {
+  top: 17px;
+  right: 10px;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-license-key-container .show-license-resend-modal {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-actions {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-actions form {
+  width: 100%;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-actions #license_issues_link {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: left;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-permissions p {
+  text-align: left;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect.require-license-key .fs-permissions p:last-of-type {
+  margin-bottom: 0;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect #fs_marketing_optin {
+  border: none;
+  padding: 30px 0;
+  margin: 30px 0 0 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect #fs_marketing_optin.error {
+  background: transparent;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect #fs_marketing_optin .fs-input-label {
+  margin-left: 22px;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-freemium-licensing {
+  border-top: 1px dashed #ddd;
+  padding: 30px 0;
+  background: transparent;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-freemium-licensing p {
+  text-align: left;
+  color: #444;
+}
+
+.settings_page_locations_and_areas.laa-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .laa-optin-wrapper #fs_connect .fs-freemium-licensing p a {
+  color: #0073aa;
+}
+
+.settings_page_locations_and_areas .laa_support_hint {
+  opacity: 0.7;
+  margin-left: 5px;
+}
+
+.settings_page_locations_and_areas .map_styles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settings_page_locations_and_areas .map_styles label {
+  width: 208px;
+  height: 208px;
+  overflow: hidden;
+  border: 4px solid white;
+  margin: 5px;
+  position: relative;
+}
+
+.settings_page_locations_and_areas .map_styles label input {
+  display: none;
+}
+
+.settings_page_locations_and_areas .map_styles label.pro-only {
+  cursor: default;
+}
+
+.settings_page_locations_and_areas .map_styles label.pro:before {
+  content: 'PRO';
+  display: inline-block;
+  position: absolute;
+  background: red;
+  color: white;
+  right: 5px;
+  bottom: 5px;
+  padding: 1px 5px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 1px solid;
+}
+
+.settings_page_locations_and_areas .map_styles label.checked, .settings_page_locations_and_areas .map_styles label:not(.pro-only):hover {
+  border-color: #2271b1;
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview {
+  width: 208px;
+  height: 208px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview[data-style="Stamen.TonerLite"] {
+  background-image: url("images/map_style_Stamen.TonerLite.png");
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview[data-style="Esri.WorldStreetMap"] {
+  background-image: url("images/map_style_Esri.WorldStreetMap.png");
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview[data-style="OpenStreetMap.Mapnik"] {
+  background-image: url("images/map_style_OpenStreetMap.Mapnik.png");
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview[data-style="CartoDB.Positron"] {
+  background-image: url("images/map_style_CartoDB.Positron.png");
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview[data-style="CartoDB.DarkMatter"] {
+  background-image: url("images/map_style_CartoDB.DarkMatter.png");
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview[data-style="Custom1"] {
+  background-image: url("images/map_style_Custom1.png");
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview[data-style="Custom2"] {
+  background-image: url("images/map_style_Custom2.png");
+}
+
+.settings_page_locations_and_areas .map_styles label .map_style_preview[data-style="Custom3"] {
+  background-image: url("images/map_style_Custom3.png");
+}
+
+.settings_page_locations_and_areas .marker_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settings_page_locations_and_areas .marker_icons label {
+  width: 50px;
+  height: 82px;
+  overflow: hidden;
+  border: 4px solid white;
+  margin: 5px;
+  position: relative;
+}
+
+.settings_page_locations_and_areas .marker_icons label input {
+  display: none;
+}
+
+.settings_page_locations_and_areas .marker_icons label.pro-only {
+  cursor: default;
+}
+
+.settings_page_locations_and_areas .marker_icons label.pro:before {
+  content: 'PRO';
+  display: inline-block;
+  position: absolute;
+  background: red;
+  color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 11px;
+  text-align: center;
+  padding: 1px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.settings_page_locations_and_areas .marker_icons label.checked, .settings_page_locations_and_areas .marker_icons label:not(.pro-only):hover {
+  border-color: #2271b1;
+}
+
+.settings_page_locations_and_areas .marker_icons label .marker_icon_preview {
+  width: 50px;
+  height: 82px;
+  background-position: center center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.settings_page_locations_and_areas .marker_icons label .marker_icon_preview[data-style="default"] {
+  background-image: url("../src/leaflet/images/marker-icon_default-2x.png");
+}
+
+.settings_page_locations_and_areas .marker_icons label .marker_icon_preview[data-style="custom1"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom1-2x.png");
+}
+
+.settings_page_locations_and_areas .marker_icons label .marker_icon_preview[data-style="custom2"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom2-2x.png");
+}
+
+.settings_page_locations_and_areas .marker_icons label .marker_icon_preview[data-style="custom3"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom3-2x.png");
+}
+
+.settings_page_locations_and_areas .marker_icons label .marker_icon_preview[data-style="custom4"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom4-2x.png");
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap {
+  position: relative;
+  width: 50%;
+  padding-top: 32.5%;
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap #mapGetArea {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap #mapGetArea input.glass {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom1 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+          filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+          filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap #mapGetArea.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .input-wrap {
+  width: 50%;
+  padding: 0 50px;
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .input-wrap .latlng-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .input-wrap .latlng-wrap > div input {
+  width: 100%;
+}
+
+.settings_page_locations_and_areas .geo-coordinates-wrap .input-wrap .geo-coordinates-hint {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: floralwhite;
+}
+
+@media (max-width: 768px) {
+  .settings_page_locations_and_areas .geo-coordinates-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .settings_page_locations_and_areas .geo-coordinates-wrap .map-wrap,
+  .settings_page_locations_and_areas .geo-coordinates-wrap .input-wrap {
+    width: 100%;
+  }
+  .settings_page_locations_and_areas .geo-coordinates-wrap .input-wrap {
+    padding: 0;
+  }
+}
+
+.settings_page_locations_and_areas .laa-pro {
+  display: inline-block;
+  background: red;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  padding: 1px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.wp-block-locations-and-areas-map {
+  background: url(images/block-bg.jpg) top center no-repeat;
+  background-size: cover;
+  border: 3px solid white;
+  height: 400px;
+}
+
+.wp-block-locations-and-areas-map .hint {
+  background: rgba(255, 255, 255, 0.8);
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.wp-block-locations-and-areas-map .hint .link-laa-settings {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.wp-block-locations-and-areas-map .hint .link-laa-settings span {
+  margin-right: 3px;
+}
+/*# sourceMappingURL=style.css.map */

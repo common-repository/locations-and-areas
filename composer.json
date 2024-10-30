@@ -1,0 +1,17 @@
+{
+    "name": "100plugins/locations-and-areas",
+    "description": "Create and manage multiple locations and areas in a map.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Daniel Schönherr",
+            "email": "daniel@100wunder.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"LocationsAndAreasPlugin\\": "./inc"}
+    }
+}
